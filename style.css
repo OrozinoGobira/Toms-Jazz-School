@@ -1,0 +1,244 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    max-width: 100vw;
+}
+body{
+    background-color: #ffecdb;
+    border: 2px solid black;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+ padding: 10px;  
+ min-width: 97vw;
+}
+nav{
+    display: flex;
+align-items: center;
+   justify-content: space-between;
+}
+ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style-type: none;
+    padding-right: 50px;
+}
+a{
+color: black;
+text-decoration: none;
+}
+.inscreva{
+    padding: 10px;
+    border: 1px solid black;
+    background-color:#ed4d1b;
+}
+main{
+    min-height: 90vh;
+    min-width: 90vw;
+}
+.section{
+    min-width: 98vw;
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    padding: 20px;
+}
+.container-texto{
+    width: 400px;
+}
+.imagem-principal{
+    max-width: 98%;
+ margin: auto;
+
+}
+.titulo{
+    font-family: 'Roboto', sans-serif;
+    font-size: 3em;
+    text-align: center;
+
+}
+.paragrafo{
+    padding-bottom: 10px;
+    text-align: justify;
+    padding: 25px;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.acesso{
+    background-color: #ed4d1b;   
+    transition: color 0.4s linear;
+     cursor: pointer;
+    padding: 10px;
+    border: 0px;
+    box-shadow: 2px 2px 6px black;
+  border-radius: 5px;
+    }
+.acesso:hover{
+    background-position: 0 0;
+ background-color: red;
+ color: white;
+}
+.listas-header{
+
+    padding: 5px;
+    border-radius: 5px;
+}
+.listas-header:hover{
+    background-color: #ed4d1b; 
+    color: white;
+    transition: 0.4s;
+
+}
+    .container-aside{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+       margin: auto;
+    }
+    .div{
+        background-color: #ed4d1b;
+        margin: 10px;
+        width: 100%;
+        height: 50%;
+        padding: 15px;
+        box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.998);
+
+    }
+    .div2, .div4{
+        background-color: #ff9a3c;
+    }
+    .imagem-seta{
+
+   }
+    .paragrafo-div{
+        font-size: 10px;
+    }
+    .section2{
+        text-align: center;
+     margin: auto;
+      align-items: center;
+      justify-content: center;
+      height: 200px;
+    }
+      .rodape{
+        display: flex;
+         width: 98vw;
+        border-top: 1px solid black;
+        text-align: center;
+      }
+      .logo-rodape{
+       display: block;
+       margin: auto;
+       padding-bottom: 10px;
+      }
+      .textos{
+        padding: 20px;
+      width: 40%;
+      text-align: justify;
+      }
+      .listas-footer{
+        display: inline;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        height: 100%;
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+      }
+      .listas{
+        display: flex;
+         align-items: center;
+        justify-content: center;
+        padding-top: 30px;
+      }
+      .acesso-email{
+        display: inline;
+         margin: auto;
+          }
+          .email{
+            padding: 10px;
+          }
+          @media screen and (max-width: 765px) {
+           .section{
+          background-color: burlywood;
+          display: inline;
+          text-align: center;
+
+           }
+           .container-texto{
+            margin: auto;
+            text-align: center;
+            padding: 20px;
+
+           }
+            .container-aside{
+             display: inline;
+
+        }
+        .div{
+            margin: 5px auto;
+            width: 50%;
+
+        }
+        nav{
+            display: inline;
+          align-items: center;
+          justify-content: center;
+        }
+        ul{
+            display: inline;
+            text-align: center;
+            padding-bottom: 20px;
+        }
+        li{
+          padding: 5px;
+        }
+        .inscreva{
+            padding-top: 5px;
+            border: 1px solid black;
+            background-color:#ed4d1b;
+        }
+        .log{
+            display: block;
+            margin: auto;
+            padding-bottom: 10px;
+        }
+        .rodape{
+            display: block;
+            
+        }
+        .textos{
+            text-align: center;
+            margin: auto;
+                padding: 20px;
+              width: 98vw;
+              text-align: justify;
+
+        }
+        .acesso-email{
+            display: block;
+            text-align: center;
+
+        }
+        .listas-footer{
+            display: block;
+            margin: auto;
+            border-bottom: 1px solid black;
+            border-left: 0px;
+            border-right: 0px;
+            border-top: 1px solid black;
+            width: 100%;
+        }
+          }
+           
